@@ -1,0 +1,134 @@
+html, body {
+	height: 100%;
+	width: 1366px;
+	margin: 0;
+	background: #ffffff;
+}
+body {
+	font-family: "Arial";
+	position: relative;
+}
+#top {
+	height: 80px;
+	width: 100%;
+	display: inline-block;
+}
+/*#top .logo {
+	background: url('../img/jukebox-logo-blue.png');
+}
+#top .subscribe {
+	background: url('../img/button-subscribe.png');
+}
+#top .login {
+	background: url('../img/button-login.png');
+}*/
+.logo {
+	top: 29px;
+	left: 70px;
+	position: absolute;
+}
+.login {
+	top: 18px;
+	right: 70px;
+	position: absolute;	
+}
+
+.subscribe {
+	top: 18px;
+	right: 212px;
+	position: absolute;
+}	
+.main_content {
+	height: 100%;
+	width: 100%;
+}
+.contentBox1 {
+	background: url('../img/hero-photo.png');
+	width: 100%;
+	height: 720px;
+}
+.content1 {
+	position: absolute;
+	left: 209px;
+	top: 300px;
+	width: 475px;
+}
+.content1 h1 {
+	font-size: 52px;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	word-spacing: 0.1rem;
+	color: #ffffff;
+	text-align: left;
+}
+.content1 p {
+	font-size: 22px;
+	color: #ffffff;
+	text-align: left;
+}
+.content1 a img {
+	margin-top: 25px;
+}
+.contentBox2 {
+	height: 668px;
+	padding-bottom:100px;
+}
+.content2 {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.content2 h2, p {
+	text-align: center;
+	margin: 0px;
+}
+.content2 h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #2b95fd;
+}
+.content2 p {
+	font-size: 22px;
+	color: #969695;
+	margin-top: 24px;
+}
+.planBox {
+	padding-left: 209px;
+	padding-right: 209px;
+}
+.planBox h3, h4, p {
+	color: #ffffff;
+	text-align: center;
+}
+.planBox h3 {
+	font-size: 42px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.planBox h4 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 0px;
+}
+.planBox p {
+	font-size: 18px;
+	line-height: 1.7em;
+}
+.planBox a img {
+	padding: 43px;
+}
+.plan1, .plan2, .plan3 {
+	width: 280px;
+	height: 437px;
+	float: left;
+}
+.plan1 {
+	background: url('../img/rect-plan1.png');
+	margin-right: 54px;
+}
+.plan2 {
+	background: url('../img/rect-plan2.png');
+	margin-right: 54px;
+}
+.plan3 {
+	background: url('../img/rect-plan3.png');
+}
